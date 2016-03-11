@@ -1,9 +1,0 @@
-{
-	"process" : {
-		"pm_id" : 1,
-		"name" : "httpserver" 
-	},
-	"receiver": {
-		"url": "https://hooks.slack.com/services/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"
-	}
-}
