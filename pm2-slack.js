@@ -12,7 +12,7 @@ pm2.launchBus(function(err, bus) {
         console.log(arguments[0]);
     });
 
-    bus.on('reconnect attempt', function() {
+    bus.on('reconnect attempt', function() {     
         console.log('Bus reconnecting');
     });
 
